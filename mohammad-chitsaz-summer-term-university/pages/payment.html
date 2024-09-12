@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Payment</title>
+  </head>
+  <body>
+    <header>
+      <div class="h-container">
+        <a href="/index.html"><h1 class="logo">برق یار</h1></a>
+        <div class="off-screen-menu">
+          <ul>
+            <li class="list__item">
+              <a href="./articles.html" class="list__link">مقاله ها</a>
+            </li>
+            <li class="list__item">
+              <a href="./payment.html" class="list__link">پرداخت قبض</a>
+            </li>
+            <li class="list__item">
+              <a href="./about-us.html" class="list__link">درباره ما</a>
+            </li>
+            <li class="list__item">
+              <a href="./call-us.html" class="list__link">ارتباط با ما</a>
+            </li>
+          </ul>
+        </div>
+        <nav>
+          <div class="menu">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="payment-container">
+        <h2>پرداخت قبض</h2>
+        <form action="#" method="post">
+          <input
+            class="btn"
+            id="payment-input"
+            type="text"
+            name="bill_id"
+            placeholder="شناسه قبض را وارد کنید"
+            required
+          />
+          <input class="submit-btn btn" id="main-payment-btn" type="submit" value="پرداخت" />
+        </form>
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2024 - تمامی حقوق این سایت برای برق یار محفوظ است.</p>
+    </footer>
+    <script src="/js/index.js"></script>
+    <script src="/js/payment.js"></script>
+  </body>
+</html>
